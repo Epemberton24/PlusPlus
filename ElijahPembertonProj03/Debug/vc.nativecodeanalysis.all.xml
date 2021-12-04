@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+      <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'c_pick'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'c_pick' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'toothpicks==1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'toothpicks&gt;4' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'toothpicks==2' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'toothpicks==3' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'toothpicks==4' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'toothpicks==1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\epemb\onedrive\desktop\(csci 121 va) computer science 1(fall 2018)\elijahpembertonproj03\elijahpembertonproj03\</FILEPATH>
+        <FILENAME>elijahpembertonproj03.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'c_pick' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
